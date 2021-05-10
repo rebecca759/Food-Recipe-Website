@@ -1,77 +1,120 @@
 <!doctype html>
 <html lang="en">
-  <head>
-  	<title>Sidebar 01</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Bootsrap 5 css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <!-- Icon -->
+    <link rel="shortcut icon" type="image/svg" href="./assets/images/favicon.png" />
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6454e424b1.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+<body>
+    <div class="r-img-container mb-5">
+        <img src="./assets/images/home-2.jpg" class="img-fluid r-home" alt="Different Ethiopian Foods">
+        <div class="r-centered">Find a Recipe</div>
+        <div class="search rounded p-2">
+            <i class="fas fa-search icon"></i>
+            <input type="search" class="search-input form-control" placeholder="Search for your favorite food" aria-label="Search"/>
+        </div>
+    </div>
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
-		
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-		
-		<div class="wrapper d-flex align-items-stretch">
-			<nav id="sidebar">
-				<div class="p-4 pt-5">
-		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/logo.jpg);"></a>
-          
-	        <ul class="list-unstyled components mb-5">
-	          <li class="active">
-	            <a href="./search.html">All Recipe</a>
-	           
-	          </li>
-            
-	          <li>
-              <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Collection</a>
-              <ul class="collapse list-unstyled" id="pageSubmenu">
-                <li>
-                    <a href="#">Page 1</a>
-                </li>
-                <li>
-                    <a href="#">Page 2</a>
-                </li>
-                <li>
-                    <a href="#">Page 3</a>
-                </li>
-               
-              </ul>
-              <li>
-                <a href="#">+new collection</a>
-            </li>
-	          </li>
-	         
-	        </ul>
-
-	        <div class="footer">
-	        	<div class="row">
-              <div class="col-6 text-center">
-                  <p>Setting | </p>
-              </div>
-              <div class="col-6 text-center">
-                 <p>LOG OUT</p>
-              </div>
+    <div class="container-fluid mb-5">
+        <h1 class="titles ms-5">FOODS</h1>
+        <div class="row mb-5 pb-3">
+            <div class="col-md-3 r-mr">
+                <a class="img-links" href="">
+                    <div class="card ms-5 food-imgs">
+                        <img src="./assets/images/vegan2.jpg" class="card-img-top r-card-img" alt="...">  
+                    </div> 
+                </a>
+                <p class="img-text veg ms-0">Vegan Food</p>
             </div>
-          </div>
 
-	      </div>
-    	</nav>
+            <div class="col-md-3 r-mr">
+                <a href="">
+                    <div class="card ms-5 food-imgs">
+                        <img src="./assets/images/non-vegan.jpg" class="card-img-top r-card-img" alt="...">  
+                      </div>
+                      <p class="img-text non-veg ms-0">Non Vegan Food</p>
+                </a>
+            </div>
 
-        <!-- Page Content  -->
-      <div id="content" class="p-4 p-md-5">
+            <div class="col-md-3">
+                <a href="">
+                    <div class="card ms-5 food-imgs">
+                        <img src="./assets/images/breakfast2.jpg" class="card-img-top r-card-img" alt="...">  
+                      </div>
+                      <p class="img-text ms-0 b-fast">Breakfast</p>
+                    </div>
+                </a>      
+        </div>
 
+        <div class="row">
+            <div class="col-md-3 r-mr">
+                <a class="img-links" href="">
+                    <div class="card ms-5 food-imgs">
+                        <img src="./assets/images/vegan.jpg" class="card-img-top r-card-img" alt="...">  
+                    </div>
+                </a>
+                <p class="img-text lunch ms-0">Lunch</p>
+            </div>
 
-        <h2 class="mb-4">All Recipes</h2>
-        <small><a>+ creat personal Recipe</a></small>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-		</div>
+            <div class="col-md-3 r-mr">
+                <a href="">
+                    <div class="card ms-5 food-imgs">
+                        <img src="./assets/images/home-4.jpg" class="card-img-top r-card-img" alt="...">  
+                      </div>
+                      <p class="img-text dinner ms-0">Dinner</p>
+                </a>    
+            </div>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+            <div class="col-md-3">
+                <a href="">
+                    <div class="card ms-5 food-imgs">
+                        <img src="./assets/images/fast-food.jpg" class="card-img-top r-card-img" alt="...">  
+                      </div>
+                      <p class="img-text f-food ms-0">Fast-Food</p>
+                    </div>
+                </a>    
+        </div>
+        
+    </div>
+    
+    <div class="container-fluid">
+        <h1 class="titles ms-5">DRINKS</h1>
+        <div class="row">
+
+            <div class="col-md-3 r-mr">
+                <a href="">
+                    <div class="card ms-5 food-imgs">
+                        <img src="./assets/images/alc.jpg" class="card-img-top r-card-img" alt="...">
+                    </div>
+                    <p class="img-text alcoholic ms-0">Alcoholic</p>
+                </a> 
+            </div>
+
+            <div class="col-md-3">
+                <a href="">
+                    <div class="card ms-5 food-imgs">
+                        <img src="./assets/images/cofee-3.jpg" class="card-img-top r-card-img" alt="...">
+                    </div>
+                    <p class="img-text n-alcoholic ms-0">Non-Alcholic</p>
+                </a>  
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- Bootsrap 5 js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
 </html>
